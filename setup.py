@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='ee.py',
     version='1.0',
-    packages=['ee.py'],
+    packages=['eepy'],
     url='https://github.com/binlaab/ee.py',
     license='',
     author='binlaab',
