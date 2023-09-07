@@ -8,5 +8,10 @@ setup(
     license='',
     author='binlaab',
     author_email='root@binlab.es.eu.org',
-    description='eepy'
+    description='eepy',
+    package_data={
+        'ee.py': [
+            'py.typed'
+        ]
+    }
 )
