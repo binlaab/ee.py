@@ -10,7 +10,7 @@ setup(
     author_email='root@binlab.es.eu.org',
     description='eepy',
     package_data={
-        'ee.py': [
+        'eepy': [
             'py.typed'
         ]
     }
