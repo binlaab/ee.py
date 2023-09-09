@@ -2,6 +2,6 @@ import time
 import random
 random.seed()
 
-def eep(zzz=random.random() * 10, message='goodnight'):
+def eep(zzz=0, message='goodnight'):
     print(message)
-    time.sleep(zzz)
+    time.sleep(random.random() * 10 if not zzz else zzz)
